@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra/Effra-LightItalic.eot');
+    src: local('Effra Light Italic'), local('Effra-LightItalic'),
+        url('../fonts/Effra/Effra-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Effra/Effra-LightItalic.woff2') format('woff2'),
+        url('../fonts/Effra/Effra-LightItalic.woff') format('woff'),
+        url('../fonts/Effra/Effra-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra/Effra.eot');
+    src: local('Effra'),
+        url('../fonts/Effra/Effra.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Effra/Effra.woff2') format('woff2'),
+        url('../fonts/Effra/Effra.woff') format('woff'),
+        url('../fonts/Effra/Effra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra/Effra-Bold.eot');
+    src: local('Effra Bold'), local('Effra-Bold'),
+        url('../fonts/Effra/Effra-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Effra/Effra-Bold.woff2') format('woff2'),
+        url('../fonts/Effra/Effra-Bold.woff') format('woff'),
+        url('../fonts/Effra/Effra-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra/Effra-Light.eot');
+    src: local('Effra Light'), local('Effra-Light'),
+        url('../fonts/Effra/Effra-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Effra/Effra-Light.woff2') format('woff2'),
+        url('../fonts/Effra/Effra-Light.woff') format('woff'),
+        url('../fonts/Effra/Effra-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra/Effra-MediumItalic.eot');
+    src: local('Effra Medium Italic'), local('Effra-MediumItalic'),
+        url('../fonts/Effra/Effra-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Effra/Effra-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Effra/Effra-MediumItalic.woff') format('woff'),
+        url('../fonts/Effra/Effra-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra/EffraHeavy-Italic.eot');
+    src: local('Effra Heavy Italic'), local('EffraHeavy-Italic'),
+        url('../fonts/Effra/EffraHeavy-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Effra/EffraHeavy-Italic.woff2') format('woff2'),
+        url('../fonts/Effra/EffraHeavy-Italic.woff') format('woff'),
+        url('../fonts/Effra/EffraHeavy-Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra/Effra-Italic.eot');
+    src: local('Effra Italic'), local('Effra-Italic'),
+        url('../fonts/Effra/Effra-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Effra/Effra-Italic.woff2') format('woff2'),
+        url('../fonts/Effra/Effra-Italic.woff') format('woff'),
+        url('../fonts/Effra/Effra-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra/Effra-BoldItalic.eot');
+    src: local('Effra Bold Italic'), local('Effra-BoldItalic'),
+        url('../fonts/Effra/Effra-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Effra/Effra-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Effra/Effra-BoldItalic.woff') format('woff'),
+        url('../fonts/Effra/Effra-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra/Effra-Medium.eot');
+    src: local('Effra Medium'), local('Effra-Medium'),
+        url('../fonts/Effra/Effra-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Effra/Effra-Medium.woff2') format('woff2'),
+        url('../fonts/Effra/Effra-Medium.woff') format('woff'),
+        url('../fonts/Effra/Effra-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra/Effra-Heavy.eot');
+    src: local('Effra Heavy'), local('Effra-Heavy'),
+        url('../fonts/Effra/Effra-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Effra/Effra-Heavy.woff2') format('woff2'),
+        url('../fonts/Effra/Effra-Heavy.woff') format('woff'),
+        url('../fonts/Effra/Effra-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/* GoodDog New ================================================= */
+
+@font-face {
+    font-family: 'GoodDog-New';
+    src: url('../fonts/GoodDog/gooddognew.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
