@@ -24,6 +24,10 @@ ul {
 
 /* =========================== */
 
+.none {
+    display: none;
+}
+
 .wrapper {
     width: 100%;
     font-family: 'Effra';
@@ -177,7 +181,7 @@ ul {
 .c__link__item1,.c__link__item2, .c__link__item3, .c__link__item4, .b__item {
     display: flex;
     align-items: center;
-    width: 350px;
+    max-width: 350px;
     height: 90px;
     padding: 0 42px;
     background-color: #181818;
@@ -239,6 +243,8 @@ ul {
 }
 
 .m__block1__sect {
+    max-width: 894px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -280,20 +286,108 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    max-width: 500px;
     height: 200px;
     margin: 60px 0;
+    padding: 0 80px;
     background-color: #F5F5F5;
     border-radius: 16px;
 }
 
 .block1__text {
-    width: 666px;
+    max-width: 666px;
     font-size: 18px;
     line-height: 150%;
     text-align: center;
 }
 
 .b__item {
+    position: relative;
     box-shadow: none;
+    background: #030303;
+}
+
+
+.b__item__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 100%;
+    width: 90px;
+    background: linear-gradient(270deg, #030303 53.65%, rgba(3, 3, 3, 0.6) 100%);
+}
+
+.main__block2 {
+    display: flex;
+    justify-content: center;
+    min-height: 584px;
+}
+
+.m__block2__sect {
+    max-width: 1232px;
+    padding: 0 20px;
+    min-height: 304px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    margin: 140px 0 0;
+}
+
+.m__block2__sect span {
+    color: #ADADAD;
+}
+
+.main__block3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1012px;
+}
+
+.m__block3__sect {
+    max-width: 1200px;
+    padding: 0 20px;
+    height: 732px;
+    text-align: center;
+}
+
+.b__sect__title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    margin: 0 0 80px;
+}
+
+.b__sect__brands {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sect__brand {
+    width: 298px;
+    height: 152px;
+} 
+
+.s__brands__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 266px;
+    height: 120px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin: 0 0 32px;
+    cursor: pointer;
+    transition: filter 0.3s;
+}
+
+
+.s__brands__block:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
